@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+    background: linear-gradient(200deg, rgba(126,126,126,1) 0%, rgba(0,0,0,1) 47%, rgba(107,107,107,1) 100%);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .nav-1{
+    background-color:aliceblue ;
+    width: 70%;
+    height: 80%;
+    box-shadow: 1px 1px 1px rgb(31, 31, 31);
+    border-radius: 30px;
+    background: linear-gradient(200deg, rgb(43, 43, 43) 100%,rgb(68, 68, 68) 0%);background-color: rgb(41, 41, 41); 
+    
+}    
+.nav .nav-1 .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}           
+.nav .nav-1 .top .logo{
+    color: rgb(255, 255, 255);
+}
+.nav .nav-1 .top .links ul{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .nav-1 .top .links ul li{
+    padding: 10px;
+}       
+.nav .nav-1 .middle{
+    display: flex;
+    margin-top: 50px;
+    color: whitesmoke;
+    font-size: 30px;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav .nav-1 .middle div img{
+    width: 250px;
+    box-shadow: 1px 1px 1px rgb(16, 6, 77);
+    border-radius: 10px;
+}
+.nav .nav-1 .bottom .sm{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+.nav .nav-1 .bottom .sm div{ 
+    margin-top: 150px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 140px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.nav .nav-1 .bottom .sm div img{
+    width: 25px;
+    padding-right: 20px;
+}
+.nav .nav-1 .bottom .sm .whatsapp{
+    border-color: #25d366;
+    color: #25d366;
+}
+.nav .nav-1 .bottom .sm .facebook{
+    border-color: #316FF6;
+    color: #316FF6;
+}
+.nav .nav-1 .bottom .sm .instagram{
+    color: #E1306C;
+    border-color: #E1306C;
+}
+.nav .nav-1 .bottom .sm .youtube{
+    color: #FF0000;
+    border-color: #FF0000;
+}
+.nav .nav-1 .bottom .sm .whatsapp:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.nav .nav-1 .bottom .sm .facebook:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.nav .nav-1 .bottom .sm .instagram:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.nav .nav-1 .bottom .sm .youtube:hover{
+    background-color: white;
+    cursor: pointer;
+}
