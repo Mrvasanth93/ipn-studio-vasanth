@@ -1,41 +1,38 @@
-body{
+/*body{
     margin: 0;
     padding: 0;
-
+    background-color: rgb(65, 65, 65);
 }
 .nav{
-    background: linear-gradient(200deg, rgba(126,126,126,1) 0%, rgba(0,0,0,1) 47%, rgba(107,107,107,1) 100%);
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .nav .nav-1{
-    background-color:aliceblue ;
-    width: 90%;
-    margin-top: 20px;
+    background-color:transparent ;
+    width: 100%;
     height: fit-content;
     margin-bottom: 10px;
-    box-shadow: 1px 1px 1px rgb(31, 31, 31);
     border-radius: 30px;
-    background: linear-gradient(200deg, rgb(43, 43, 43) 100%,rgb(68, 68, 68) 0%);background-color: rgb(41, 41, 41); 
-    
+    padding-bottom: 30px;
 }    
 .nav .nav-1 .top{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: bolder;
     letter-spacing: 0.5px;
     word-spacing: 1px;
+    background-color: #25d366;
 }           
 .nav .nav-1 .top .logo{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .nav .nav-1 .top .links ul{
     list-style: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +41,7 @@ body{
     padding: 10px;
 }       
 .nav .nav-1 .middle div img{
-    width: 250px;
+    width: 200px;
     border-radius: 10px;
     margin-top: 30px;
 }
@@ -55,26 +52,25 @@ body{
     justify-content: center;
     text-align: center;
     margin-top: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
 }
 
-
 .nav .nav-1 .bottom{
+    text-align: center;
+    display: flex;
+}
+.nav .nav-1 .bottom a{
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.nav .nav-1 .bottom .sm{
-   text-align: center;
-   margin-left: 40px;
-   margin-right: 40px;
-   margin-bottom: 30px;
-}
+
 a{
     text-decoration: none;
 }
-.nav .nav-1 .bottom .sm div{ 
+.nav .nav-1 .bottom  div{ 
     margin-top: 30px;
     border-radius: 5px;
     border: 1px solid white;
@@ -87,45 +83,175 @@ a{
 }
 hr{
     width: 120px;
+    color: black;
+    background-color: black;
+    border: 0px solid black;
 }
 .sm-tittle{
     margin-top: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
-.nav .nav-1 .bottom .sm div img{
+.nav .nav-1 .bottom div img{
     width: 25px;
     padding-right: 20px;
 }
-.nav .nav-1 .bottom .sm .whatsapp{
+.nav .nav-1 .bottom .whatsapp{ff
     border-color: #25d366;
     color: #25d366;
 }
-.nav .nav-1 .bottom .sm .facebook{
+.nav .nav-1 .bottom  .facebook{
     border-color: #316FF6;
     color: #316FF6;
 }
-.nav .nav-1 .bottom .sm .instagram{
+.nav .nav-1 .bottom .instagram{
     color: #E1306C;
     border-color: #E1306C;
 }
-.nav .nav-1 .bottom .sm .youtube{
+.nav .nav-1 .bottom  .youtube{
     color: #FF0000;
     border-color: #FF0000;
 }
-.nav .nav-1 .bottom .sm .whatsapp:hover{
+.nav .nav-1 .bottom  .whatsapp:hover{
     background-color: white;
     cursor: pointer;
 }
-.nav .nav-1 .bottom .sm .facebook:hover{
+.nav .nav-1 .bottom  .facebook:hover{
     background-color: white;
     cursor: pointer;
 }
-.nav .nav-1 .bottom .sm .instagram:hover{
+.nav .nav-1 .bottom  .instagram:hover{
     background-color: white;
     cursor: pointer;
 }
-.nav .nav-1 .bottom .sm .youtube:hover{
+.nav .nav-1 .bottom  .youtube:hover{
     background-color: white;
     cursor: pointer;
+}*/
+.nav{
+    margin: 10;
+    background-color: aliceblue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.nav .nav-left .logo{
+    height: 70px;
+}
+.nav .nav-left .logo img{
+    width: 70px;
+}
+.nav .nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav .nav-right a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: "20th century font";
+}
+
+
+
+.about{
+    margin: 2%;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    
+}
+.about h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.about hr{
+    width: 150px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.about h5{
+    text-align: justify;
+    font-size: 120%;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.about .right{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+
+.services-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.services-tittle div{
+    text-align: left;
+}
+.services-tittle h6{
+    color: #5252b9;
+}
+.services-tittle h5{
+    width: 260px;
+    letter-spacing: 1px;
+    text-align: justify;
+
+}
+.services-tittle .service-btn{
+    background-color: #5151a8;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    letter-spacing: 1.5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+.services-tittle .service-btn a{
+    color: white;
+}
+hr{
+    width: 150px;
+    background-color: black;
+}
+.services .service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.services-service{
+    margin-top: 40px;
+}
+.services .service div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 20px;
+    width: 40%;
+    height: 100px;
 }
